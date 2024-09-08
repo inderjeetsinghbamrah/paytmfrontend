@@ -1,0 +1,21 @@
+# Node.js dependencies
+/node_modules
+
+# Build output
+/build
+
+# Cache files
+.cache
+.next
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage output (from testing)
+coverage
+
+# Temporary files
+*.swp
+*.swo
