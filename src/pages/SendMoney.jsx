@@ -12,7 +12,7 @@ export const SendMoney = () => {
 
     function transfer(){
         const userId = localStorage.getItem("userId")
-        axios.post("https://paytmbackend-enfn.onrender.com/api/v1/account/transfer",{
+        axios.post("https://paytmbackend.vercel.app/api/v1/account/transfer",{
             to: id,
             amount,
             userId

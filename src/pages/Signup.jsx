@@ -16,7 +16,7 @@ function Signup() {
     const navigate = useNavigate();
 
     async function createUser(){
-        const response= await axios.post("https://paytmbackend-enfn.onrender.com/api/v1/user/signup",{
+        const response= await axios.post("https://paytmbackend.vercel.app/api/v1/user/signup",{
             username,
             firstname,
             lastname,

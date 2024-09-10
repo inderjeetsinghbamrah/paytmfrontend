@@ -14,7 +14,7 @@ function Signin() {
     const navigate = useNavigate();
 
     async function loginUser(){
-        const response= await axios.post("https://paytmbackend-enfn.onrender.com/api/v1/user/signin",{
+        const response= await axios.post("https://paytmbackend.vercel.app/api/v1/user/signin",{
             username,
             password
         });
